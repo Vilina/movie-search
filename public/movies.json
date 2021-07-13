@@ -1,0 +1,1046 @@
+[
+    {
+        "id": 163979287265942016,
+        "title": "An American Tail: Fievel Goes West",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 8,
+                "title": "Western"
+            }
+        ],
+        "actors": [
+            {
+                "id": 163978496991957504,
+                "name": "Fievel Mousekewitz"
+            },
+            {
+                "id": 163978647315813376,
+                "name": "Tanya MouseKewitz"
+            }
+        ],
+        "is_series": true,
+        "release_date": "1991-11-17T00:00:00.000000Z"
+    },
+    {
+        "id": 163982121944357888,
+        "title": "The Notebook",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            },
+            {
+                "id": 6,
+                "title": "Romance"
+            }
+        ],
+        "actors": [
+            {
+                "id": 163982182073900544,
+                "name": "Ryan Gosling"
+            },
+            {
+                "id": 163982199253770240,
+                "name": "Rachel McAdams"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2004-06-25T00:00:00.000000Z"
+    },
+    {
+        "id": 163982121944357899,
+        "title": "Luca",
+        "genre": [
+            {
+                "id": 9,
+                "title": "Animation"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 111547267031365201,
+                "name": "Jacob Tremblay"
+            },
+            {
+                "id": 162409536521175400,
+                "name": "Jack Dylan Grazer"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2021-06-17T00:00:00.000Z"
+    },
+    {
+        "id": 135684849361764324,
+        "title": "The Shawshank Redemption",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 170269310533862300,
+                "name": "Tim Robbins"
+            },
+            {
+                "id": 103003778476514896,
+                "name": "Morgan Freeman"
+            }
+        ],
+        "is_series": false,
+        "release_date": "1994-09-13T00:00:00.000Z"
+    },
+    {
+        "id": 151840380593135407,
+        "title": "The Godfather",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 166257398523472041,
+                "name": "Marlon Brando"
+            },
+            {
+                "id": 206647969697154711,
+                "name": "Al Pacino"
+            }
+        ],
+        "is_series": false,
+        "release_date": "1972-03-14T00:00:00.000Z"
+    },
+    {
+        "id": 110965224055887233,
+        "title": "Parasite",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 133658040968967393,
+                "name": "Kang-ho Song"
+            },
+            {
+                "id": 184158942022578704,
+                "name": "Sun-kyun Lee"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2019-05-21T00:00:00.000Z"
+    },
+    {
+        "id": 178987624600632303,
+        "title": "Interstellar",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            },
+            {
+                "id": 5,
+                "title": "Sci-fi"
+            }
+        ],
+        "actors": [
+            {
+                "id": 182594384008305377,
+                "name": "Matthew McConaughey"
+            },
+            {
+                "id": 113379754296401297,
+                "name": "Anne Hathaway"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2014-10-26T00:00:00.000Z"
+    },
+    {
+        "id": 130679937083857635,
+        "title": "Avengers: Endgame",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 120148012795843666,
+                "name": "Robert Downey Jr."
+            },
+            {
+                "id": 166491362830459186,
+                "name": "Chris Evans"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2019-04-22T00:00:00.000Z"
+    },
+    {
+        "id": 165156356847217759,
+        "title": "Soul",
+        "genre": [
+            {
+                "id": 9,
+                "title": "Animation"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 133526782018508368,
+                "name": "Jamie Foxx"
+            },
+            {
+                "id": 135444069800549204,
+                "name": "Tina Fey"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2020-10-11T00:00:00.000Z"
+    },
+    {
+        "id": 163982121944358899,
+        "title": "A Quiet Place",
+        "genre": [
+            {
+                "id": 7,
+                "title": "Horror"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 117058504008094995,
+                "name": "Emily Blunt"
+            },
+            {
+                "id": 152669025070231742,
+                "name": "John Krasinski"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2018-03-09T00:00:00.000Z"
+    },
+    {
+        "id": 176993723703504679,
+        "title": "Tenet",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 5,
+                "title": "Sci-fi"
+            }
+        ],
+        "actors": [
+            {
+                "id": 101004296688489346,
+                "name": "John David Washington"
+            },
+            {
+                "id": 142600643436104452,
+                "name": "Robert Pattinson"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2020-08-22T00:00:00.000Z"
+    },
+    {
+        "id": 100799574855073524 ,
+        "title": "Game of Thrones",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 147906171487048901,
+                "name": "Emilia Clarke"
+            },
+            {
+                "id": 118805735397962215,
+                "name": "Peter Dinklage"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2011-04-17T00:00:00.000Z"
+    },
+    {
+        "id": 154381658844545180,
+        "title": "Friends",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 6,
+                "title": "Romance"
+            }
+        ],
+        "actors": [
+            {
+                "id": 130602377839075447,
+                "name": "Jennifer Aniston"
+            },
+            {
+                "id": 141602324782957478,
+                "name": "Courteney Cox"
+            }
+        ],
+        "is_series": true,
+        "release_date": "1994-09-22T00:00:00.000Z"
+    },
+    {
+        "id": 132836634252648473,
+        "title": "The Walking Dead",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            },
+            {
+                "id": 7,
+                "title": "Horror"
+            }
+        ],
+        "actors": [
+            {
+                "id": 179420085578843815,
+                "name": "Andrew Lincoln"
+            },
+            {
+                "id": 111883980993817630,
+                "name": "Norman Reedus"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2010-10-11T00:00:00.000Z"
+    },
+    {
+        "id": 133365994612079529,
+        "title": "House",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            },
+            {
+                "id": 14,
+                "title": "Mystery"
+            }
+        ],
+        "actors": [
+            {
+                "id": 105249500281381990,
+                "name": "Hugh Laurie"
+            },
+            {
+                "id": 117577231062806800,
+                "name": "Omar Epps"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2004-11-16T00:00:00.000Z"
+    },
+    {
+        "id": 173729842549505332,
+        "title": "Rick and Morty",
+        "genre": [
+            {
+                "id": 9,
+                "title": "Animation"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 158559404619853584,
+                "name": "Justin Roiland"
+            },
+            {
+                "id": 184725162174149248,
+                "name": "Chris Parnell"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2013-12-02T00:00:00.000Z"
+    },
+    {
+        "id": 114782189116041863,
+        "title": "The Handmaid's Tale",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            },
+            {
+                "id": 5,
+                "title": "Sci-fi"
+            }
+        ],
+        "actors": [
+            {
+                "id": 193584262531650677,
+                "name": "Elisabeth Moss"
+            },
+            {
+                "id": 142568878659889786,
+                "name": "Yvonne Strahovski"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2017-04-26T00:00:00.000Z"
+    },
+    {
+        "id": 182606603770993228,
+        "title": "Dexter",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            },
+            {
+                "id": 13,
+                "title": "Crime"
+            }
+        ],
+        "actors": [
+            {
+                "id": 181577754497399090,
+                "name": "Michael C. Hall"
+            },
+            {
+                "id": 177816908410373829,
+                "name": "Jennifer Carpenter"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2007-01-11T00:00:00.000Z"
+    },
+    {
+        "id": 181614724753857483,
+        "title": "The Witcher",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 163843104430933622,
+                "name": "Henry Cavill"
+            },
+            {
+                "id": 138675276340919794,
+                "name": "Anna Shaffer"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2019-12-20T00:00:00.000Z"
+    },
+    {
+        "id": 194379378246017174,
+        "title": "Lost",
+        "genre": [
+            {
+                "id": 10,
+                "title": "Adventure"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 142423115957318949,
+                "name": "Jorge Garcia"
+            },
+            {
+                "id": 153480265572027390,
+                "name": "Josh Holloway"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2004-09-22T00:00:00.000Z"
+    },
+    {
+        "id": 825848473336513919,
+        "title": "Attack on Titan",
+        "genre": [
+            {
+                "id": 9,
+                "title": "Animation"
+            },
+            {
+                "id": 1,
+                "title": "Action"
+            }
+        ],
+        "actors": [
+            {
+                "id": 680530668934208201,
+                "name": "Yûki Kaji"
+            },
+            {
+                "id": 704802951434757954,
+                "name": "Yui Ishikawa"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2013-03-07T00:00:00.000Z"
+    },
+    {
+        "id": 949285766007243958,
+        "title": "The Big Bang Theory",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 6,
+                "title": "Romance"
+            }
+        ],
+        "actors": [
+            {
+                "id": 755694131373829931,
+                "name": "Jim Parsons"
+            },
+            {
+                "id": 745355141295262346,
+                "name": "Mayim Bialik"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2006-05-01T00:00:00.000Z"
+    },
+    {
+        "id": 449855022816035332,
+        "title": "Money Heist",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 13,
+                "title": "Crime"
+            }
+        ],
+        "actors": [
+            {
+                "id": 470975992008776102,
+                "name": "Ursula Corbero"
+            },
+            {
+                "id": 140550676640405311,
+                "name": "Alvaro Morte"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2017-05-02T00:00:00.000Z"
+    },
+    {
+        "id": 886161843122979400,
+        "title": "Why Women Kill",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 13,
+                "title": "Crime"
+            }
+        ],
+        "actors": [
+            {
+                "id": 239321928955207348,
+                "name": "Jack Davenport"
+            },
+            {
+                "id": 151408635155465107,
+                "name": "Lucy Liu"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2019-07-21T00:00:00.000Z"
+    },
+    {
+        "id": 525753924288756546,
+        "title": "Shameless",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 671681687934567778,
+                "name": "William H. Macy"
+            },
+            {
+                "id": 688853773524385769,
+                "name": "Emmy Rossum"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2011-01-092T00:00:00.000Z"
+    },
+    {
+        "id": 233684690228994959,
+        "title": "How I Met Your Mother",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 6,
+                "title": "Romance"
+            }
+        ],
+        "actors": [
+            {
+                "id": 376709058487532241,
+                "name": "Josh Radnor"
+            },
+            {
+                "id": 454287551372126337,
+                "name": "Neil Patrick Harris"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2005-09-19T00:00:00.000Z"
+    },
+    {
+        "id": 733215067336111853,
+        "title": "The Blacklist",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 845888613557470734,
+                "name": "James Spader"
+            },
+            {
+                "id": 823632725368658922,
+                "name": "Megan Boone"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2013-09-23T00:00:00.000Z"
+    },
+    {
+        "id": 791119773450494932,
+        "title": "Breaking Bad",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 289559369291700163,
+                "name": "Bryan Cranston"
+            },
+            {
+                "id": 661722156574047988,
+                "name": "Aaron Paul"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2008-01-20T00:00:00.000Z"
+    },
+    {
+        "id": 417022078277064383,
+        "title": "Peaky Blinders",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 686637466186943831,
+                "name": "Cillian Murphy"
+            },
+            {
+                "id": 741548580267005096,
+                "name": "Paul Anderson"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2013-09-12T00:00:00.000Z"
+    },
+    {
+        "id": 228302223954377912,
+        "title": "Stranger Things",
+        "genre": [
+            {
+                "id": 11,
+                "title": "Fantasy"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 264903654385684961,
+                "name": "Millie Bobby Brown"
+            },
+            {
+                "id": 156112652780164925,
+                "name": "Winona Ryder"
+            }
+        ],
+        "is_series": true,
+        "release_date": "2016-07-11T00:00:00.000Z"
+    },
+    {
+        "id": 284746037288201456,
+        "title": "The Tomorrow War",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 698646497475955734,
+                "name": "Chris Pratt"
+            },
+            {
+                "id": 359094296766905336,
+                "name": "Yvonne Strahovski"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2021-07-02T00:00:00.000Z"
+    },
+    {
+        "id": 921797585275467432,
+        "title": "Black Widow",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            },
+            {
+                "id": 12,
+                "title": "Superhero"
+            }
+        ],
+        "actors": [
+            {
+                "id": 325766740018761940,
+                "name": "Scarlett Johansson"
+            },
+            {
+                "id": 950512853508691767,
+                "name": "Florence Pugh"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2021-07-07T00:00:00.000Z"
+    },
+    {
+        "id": 834624573700868224,
+        "title": "Cruella",
+        "genre": [
+            {
+                "id": 3,
+                "title": "Comedy"
+            },
+            {
+                "id": 13,
+                "title": "Crime"
+            }
+        ],
+        "actors": [
+            {
+                "id": 692924127017889939,
+                "name": "Emma Stone"
+            },
+            {
+                "id": 892068429068516210,
+                "name": "Emma Thompson"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2021-05-18T00:00:00.000Z"
+    },
+    {
+        "id": 871583094161762119,
+        "title": "The Little Things",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 862119121826248519,
+                "name": "Denzel Washington"
+            },
+            {
+                "id": 682901153569002424,
+                "name": "Rami Malek"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2021-01-29T00:00:00.000Z"
+    },
+    {
+        "id": 536446081179871098,
+        "title": "The Fast and the Furious",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 13,
+                "title": "Crime"
+            }
+        ],
+        "actors": [
+            {
+                "id": 675154599759342920,
+                "name": "Vin Diesel"
+            },
+            {
+                "id": 503932987902905153,
+                "name": "Paul Walker"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2001-06-18T00:00:00.000Z"
+    },
+    {
+        "id": 145447033075860913,
+        "title": "Zack Snyder's Justice League",
+        "genre": [
+            {
+                "id": 1,
+                "title": "Action"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            },
+            {
+                "id": 11,
+                "title": "Fantasy"
+            },
+            {
+                "id": 12,
+                "title": "Superhero"
+            }
+        ],
+        "actors": [
+            {
+                "id": 992116031694728964,
+                "name": "Gal Gadot"
+            },
+            {
+                "id": 222551076356549630,
+                "name": "Ben Affleck"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2021-03-18T00:00:00.000Z"
+    },
+    {
+        "id": 687647232912377943,
+        "title": "Pulp Fiction",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 290971165789743546,
+                "name": "John Travolta"
+            },
+            {
+                "id": 493415953561057588,
+                "name": "Uma Thurman"
+            }
+        ],
+        "is_series": false,
+        "release_date": "1994-05-21T00:00:00.000Z"
+    },
+    {
+        "id": 479119480143515193,
+        "title": "Wonder Woman 1984",
+        "genre": [
+            {
+                "id": 12,
+                "title": "Superhero"
+            },
+            {
+                "id": 10,
+                "title": "Adventure"
+            }
+        ],
+        "actors": [
+            {
+                "id": 962919811481528623,
+                "name": "Chris Pine"
+            },
+            {
+                "id": 992116031694728964,
+                "name": "Gal Gadot"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2020-12-16T00:00:00.000Z"
+    },
+    {
+        "id": 220660172781118762,
+        "title": "Knives Out",
+        "genre": [
+            {
+                "id": 13,
+                "title": "Crime"
+            },
+            {
+                "id": 3,
+                "title": "Comedy"
+            }
+        ],
+        "actors": [
+            {
+                "id": 502113159552904950,
+                "name": "Daniel Craig"
+            },
+            {
+                "id": 719098560279476847,
+                "name": "Chris Evans"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2019-09-07T00:00:00.000Z"
+    },
+    {
+        "id": 534921850367853988,
+        "title": "Bohemian Rhapsody",
+        "genre": [
+            {
+                "id": 2,
+                "title": "Drama"
+            }
+        ],
+        "actors": [
+            {
+                "id": 682901153569002424,
+                "name": "Rami Malek"
+            },
+            {
+                "id": 330578907888833011,
+                "name": "Lucy Boynton"
+            }
+        ],
+        "is_series": false,
+        "release_date": "2018-10-23T00:00:00.000Z"
+    }
+]
