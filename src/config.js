@@ -1,5 +1,6 @@
 let config = {
   apiUrl: './', //mock api
+  baseUrl: '',
   moviesEndpoint: './movies.json',
   actorsEndpoint: './actors.json',
   genreEndpoint: './genre.json'
