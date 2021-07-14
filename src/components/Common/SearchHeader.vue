@@ -104,7 +104,7 @@
       },
       setGenre (id) {
         this.$store.dispatch('setGenre', id);
-        if (this.$route.name === 'movie' || this.$route.name === 'search') {
+        if (this.$route.name === 'movie') {
           this.goMain();
         }
         this.toggleSubmenu();
