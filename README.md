@@ -93,7 +93,8 @@ Example Response:
       {
         "id": 8,
         "title": "Western"
-      },
+      }
+    ],
     "actors": [
       {
         "id": 163978496991957504,
