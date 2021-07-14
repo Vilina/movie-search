@@ -46,6 +46,15 @@ export const handlers = [
       ctx.json(result),
     )
   }),
+  rest.get('/movie', async (req, res, ctx) => {
+    const id = req.url.searchParams.get('id');
+    let result = await getMovies();
+    result = mock.getMovie(result, id);
+    return res(
+      ctx.status(200),
+      ctx.json(result),
+    )
+  }),
   rest.get('/movies', async (req, res, ctx) => {
     const genreId = req.url.searchParams.get('genreId');
     let result = await getMovies();
@@ -131,15 +140,6 @@ export const handlers = [
     const searchValue = req.url.searchParams.get('key');
     let result = await getActors();
     result = mock.getAllActorsFiltered(result, searchValue);
-    return res(
-      ctx.status(200),
-      ctx.json(result),
-    )
-  }),
-  rest.get('/movie', async (req, res, ctx) => {
-    const id = req.url.searchParams.get('id');
-    let result = await getMovies();
-    result = mock.getMovie(result, id);
     return res(
       ctx.status(200),
       ctx.json(result),

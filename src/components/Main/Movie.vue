@@ -1,6 +1,6 @@
 <template>
   <div class="movie-container">
-    <div class="movie-poster" v-bind:style="{ backgroundImage: 'url(' + getImgUrl(movie.id) + ')' }"></div>
+    <div class="movie-poster" :style="{ backgroundImage: 'url(' + getImgUrl(movie.id) + ')' }"></div>
     <div class="movie-info">
       <div class="movie-title">
         {{movie.title}}
@@ -28,6 +28,12 @@
     components: {
       Genre
     },
+    beforeRouteEnter (to, from, next) {
+      API.getMovie(to.query.id)
+        .then(res => {
+          next(vm => vm.setMovie(res))
+        });
+    },
     props: {
     },
     data() {
@@ -36,9 +42,6 @@
       }
     },
     computed: {
-      ...mapGetters({
-        movie: 'getChosenMovie',
-      }),
     },
     created() {
     },
@@ -50,12 +53,6 @@
         this.movie = value
       }
     },
-    beforeRouteEnter (to, from, next) {
-      API.getMovie(to.query.id)
-        .then(res => {
-          next(vm => vm.setMovie(res))
-        });
-    }
   }
 </script>
 

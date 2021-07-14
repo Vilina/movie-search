@@ -158,7 +158,7 @@
         box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
       }
       .logo {
-        background-image: url('./logo.png');
+        background-image: url('../logo.png');
         height: 100%;
         width: 100px;
         display: flex;

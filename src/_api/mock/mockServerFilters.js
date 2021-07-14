@@ -22,10 +22,15 @@ function filterMoviesByGenre(moviesArray, genreId) {
   }
   return moviesArray;
 }
-
+/*
+* Filters all movies by searchValue(if present) && genreId(if present),
+* and returns offset + limit slice of array and filter results count for pagination calculation.
+*
+* */
 function filterAllMovies(moviesArray, searchValue, genreId, limit, offset) {
   let search = _.toLower(searchValue);
   let filteredMovies = moviesArray;
+  // If no genreId is present searchValue substring is compared to the movie title/actor name/genre title
   if (searchValue && !genreId) {
     filteredMovies = moviesArray.filter((movie) => {
       let byTitle = movie.title.indexOf(search) >= 0;
@@ -38,7 +43,10 @@ function filterAllMovies(moviesArray, searchValue, genreId, limit, offset) {
       });
       return byTitle || byActor.length || byGenre.length;
     })
-  } else if (searchValue && genreId) {
+  }
+  // if searchValue and genreId are both present movies are returned
+  // if they belong to the chosen genre and their title contains searchValue substring.
+  else if (searchValue && genreId) {
     filteredMovies = moviesArray.filter((movie) => {
       let byTitle = movie.title.indexOf(search) >= 0;
       let byGenre = movie.genre.filter((genre) => {
@@ -46,7 +54,9 @@ function filterAllMovies(moviesArray, searchValue, genreId, limit, offset) {
       });
       return byTitle && byGenre.length;
     })
-  } else if (!searchValue && genreId) {
+  }
+  //If no search value present filters by genre only
+  else if (!searchValue && genreId) {
     filteredMovies = moviesArray.filter((movie) => {
       let byGenre = movie.genre.filter((genre) => {
         return  genre.id == genreId;
@@ -54,7 +64,11 @@ function filterAllMovies(moviesArray, searchValue, genreId, limit, offset) {
       return byGenre.length;
     })
   }
-  return { movies: filteredMovies.slice(parseInt(offset || 0), parseInt(offset || 0) + parseInt(limit || 0)), count: filteredMovies.length};
+  //otherwise returns original array sliced with offset+limit
+  return {
+    movies: filteredMovies.slice(parseInt(offset || 0), parseInt(offset || 0) + parseInt(limit || 0)),
+    count: filteredMovies.length
+  };
 }
 
 function filterActors(actors, searchValue) {

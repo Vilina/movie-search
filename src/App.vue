@@ -6,7 +6,7 @@
 </template>
 
 <script >
-import SearchHeader from './components/Search/SearchHeader.vue'
+import SearchHeader from './components/Common/SearchHeader.vue'
 import store from './_store/store'
 
 export default {

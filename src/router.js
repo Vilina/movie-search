@@ -59,9 +59,9 @@ const router = createRouter({
       component: Movie
     },
   ],
-})
+});
 
-router.beforeEach(async (to, from) => {
+router.beforeEach(async (to) => {
   let searchField = await store.getters.getSearchField;
   if(to.query.search !== searchField) {
     await store.dispatch('setSearchField', to.query.search);

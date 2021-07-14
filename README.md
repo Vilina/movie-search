@@ -1,27 +1,66 @@
-#General
+## PEXFLIX
 
-Movie Search VueJS application using [Vite](https://vitejs.dev/) build tool. 
+## Description
+
+Simple Movie Search app with VueJS using [Vite](https://vitejs.dev/) build tool. Ui is inspired by current trends. 
+###### Disclaimer  
+Any similarity to actual website is purely coincidental.
+
+
+## Tools
 
 Routing organized is by [Vue Router](https://next.router.vuejs.org/).                
 State management is organized by [Vuex](https://next.vuex.vuejs.org/).  
 Http requests are done using [Axios](https://github.com/axios/axios).  
-Mock server made using [Mock Service Worker](https://mswjs.io/). 
-v14.16.0
-7.6.3
+Mock server made using [Mock Service Worker](https://mswjs.io/).   
+Linter: [ESLint](https://eslint.org/)
 
 
 ## Dependencies
+
 * Node.js (v14)
 * Npm (v7.6)
 
-  
+## Structure
+
+├── dist                                     # Build 
+├── docs                                     # Documentation files   
+├── public                                   # Public assets + mswjs + json data files   
+├── src                                      # Source files  
+│   ├── _api  
+│   │   ├── mock  
+│   │   │    ├── browser.js                  # mswjs worker setum  
+│   │   │    └── handlers.js                 # mswjs http requests' handlers  
+│   │   └──────  mockServerFilters.js        # Mock Api logic  
+│   └────── index.js                         # Api methods  
+│   ├── _services                            # Helper Service  
+│   ├── _store                               # Vuex store, actions, getters, mutations  
+│   ├── components  
+│   │   ├──Common                            # Reusable components  
+│   │   └── Main                             # Route components  
+│   ├── App.vue                              # Entry component  
+│   ├── config.js                            # Config   
+│   ├── main.js                              # App creation  
+│   └── router.js                            # Router  
+└── README.md  
+
+## Installation
+
+1. Clone the repo `git clone https://github.com/Vilina/movie-search.git movie-search && cd movie-search`.
+1. Install the dependencies in the root directory `npm install`
+
+## Running locally
+
+`npm run dev`     for development  
+`npm run build`   for building  
+`npm run serve`   for serving built version  
+`npm run lint`    for running ESlint  
 
 
+##Requirements
 
-#REQUIREMENTS
 
-Frontend Technical Challenge
-===============================
+##Frontend Technical Challenge
 
 Please build a page that allows for searching and filtering of movies via an API. Below is an example response from the API, but the request format is up to you. Our goal is to understand how you would design the API contract so please explain your decisions thoroughly. You do not need to build a functioning API. Mocked or hardcoded responses are perfectly fine.
 
@@ -51,7 +90,7 @@ Example Response:
       {
         "id": 8,
         "title": "Western"
-    ],
+      },
     "actors": [
       {
         "id": 163978496991957504,

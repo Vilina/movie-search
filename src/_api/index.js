@@ -126,6 +126,15 @@ export default {
         return res.data;
       })
   },
+  getGenresFiltered (searchValue) {
+    let queryString = getQueryParamsString({ 'key': searchValue});
+    return axiosInstance.get('/genres/all' + queryString, {
+      transformResponse: [(data) => jsonBig.parse(data)]
+    })
+      .then((res) => {
+        return res.data
+      })
+  },
   getAllMoviesFiltered (searchValue, genre, limit, offset) {
     let queryString = getQueryParamsString(
       { 'key': searchValue},
@@ -140,19 +149,10 @@ export default {
         return res.data;
       })
   },
-  getGenresFiltered (searchValue) {
-    let queryString = getQueryParamsString({ 'key': searchValue});
-    return axiosInstance.get('/genres/all' + queryString, {
-      transformResponse: [(data) => jsonBig.parse(data)]
-    })
-      .then((res) => {
-        return res.data
-      })
-  },
   getActorsFiltered (searchValue) {
     let queryString = getQueryParamsString({ 'key': searchValue});
     return axiosInstance.get('/actors/all' + queryString, {
-      transformResponse: [(data) => jsonBig.parse(data)]
+    transformResponse: [(data) => jsonBig.parse(data)]
     })
       .then((res) => {
         return res.data
