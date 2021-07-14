@@ -15,6 +15,10 @@ Http requests are done using [Axios](https://github.com/axios/axios).
 Mock server made using [Mock Service Worker](https://mswjs.io/).   
 Linter: [ESLint](https://eslint.org/)
 
+## Demo
+### [API contract](https://github.com/Vilina/movie-search/blob/main/docs/api.md) 
+### [General product logic info](https://github.com/Vilina/movie-search/blob/main/docs/general.md)
+
 
 ## Dependencies
 
@@ -23,25 +27,25 @@ Linter: [ESLint](https://eslint.org/)
 
 ## Structure
 
-├── dist                                     # Build 
-├── docs                                     # Documentation files   
-├── public                                   # Public assets + mswjs + json data files   
-├── src                                      # Source files  
+├── dist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Build   
+├── docs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Documentation files   
+├── public &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Public assets + mswjs + json data files   
+├── src &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Source files  
 │   ├── _api  
 │   │   ├── mock  
-│   │   │    ├── browser.js                  # mswjs worker setum  
-│   │   │    └── handlers.js                 # mswjs http requests' handlers  
-│   │   └──────  mockServerFilters.js        # Mock Api logic  
-│   └────── index.js                         # Api methods  
-│   ├── _services                            # Helper Service  
-│   ├── _store                               # Vuex store, actions, getters, mutations  
+│   │   │    ├── browser.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# mswjs worker setum  
+│   │   │    └── handlers.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # mswjs http requests' handlers  
+│   │   └──────  mockServerFilters.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Mock Api logic  
+│   └────── index.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Api methods  
+│   ├── _services &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Helper Service  
+│   ├── _store &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Vuex store, actions, getters, mutations  
 │   ├── components  
-│   │   ├──Common                            # Reusable components  
-│   │   └── Main                             # Route components  
-│   ├── App.vue                              # Entry component  
-│   ├── config.js                            # Config   
-│   ├── main.js                              # App creation  
-│   └── router.js                            # Router  
+│   │   ├──Common &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Reusable components  
+│   │   └── Main &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Route components  
+│   ├── App.vue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Entry component  
+│   ├── config.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Config   
+│   ├── main.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# App creation  
+│   └── router.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Router  
 └── README.md  
 
 ## Installation
@@ -57,10 +61,9 @@ Linter: [ESLint](https://eslint.org/)
 `npm run lint`    for running ESlint  
 
 
-##Requirements
+## Requirements
 
-
-##Frontend Technical Challenge
+## Frontend Technical Challenge
 
 Please build a page that allows for searching and filtering of movies via an API. Below is an example response from the API, but the request format is up to you. Our goal is to understand how you would design the API contract so please explain your decisions thoroughly. You do not need to build a functioning API. Mocked or hardcoded responses are perfectly fine.
 

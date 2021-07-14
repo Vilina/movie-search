@@ -4,11 +4,11 @@ Application uses vuex for state management.
 
 Routing 
 
-/                   :main view   
-/movies             :only movies view   
-/series             :only series view   
-/search/:search?    :search results view   
-/movie/:id?         :individual movie view   
+/ &nbsp;&nbsp;&nbsp;&nbsp; :main view   
+/movies &nbsp;&nbsp;&nbsp;&nbsp; :only movies view   
+/series &nbsp;&nbsp;&nbsp;&nbsp; :only series view   
+/search/:search? &nbsp;&nbsp;&nbsp;&nbsp; :search results view   
+/movie/:id? &nbsp;&nbsp;&nbsp;&nbsp; :individual movie view   
 
 [Routes](https://github.com/Vilina/movie-search/blob/main/src/router.js) have beforeEnter guards which using [helperService.js](https://github.com/Vilina/movie-search/tree/main/src/_services) dispatches actions needed for specific route to the store.     
 Those actions are making API calls using [_api/index.js](https://github.com/Vilina/movie-search/blob/main/src/_api/index.js) service via axios.   

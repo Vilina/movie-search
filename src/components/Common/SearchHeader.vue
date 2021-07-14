@@ -55,8 +55,13 @@
           return this.searchFieldState || '';
         },
         set: _.debounce(async function(value) {
-          await this.$store.dispatch('setSearchField', value);
-          await this.$router.push({ path: '/search', query: { search: this.searchField }});
+          if (value) {
+            await this.$store.dispatch('setSearchField', value);
+            await this.$router.push({ path: '/search', query: { search: this.searchField }});
+          } else {
+            await this.$store.dispatch('unsetSearchField');
+            await this.$router.push({ path: '/search'});
+          }
         }, 500)
       }
     },
@@ -116,8 +121,7 @@
       },
       async unsetSearch (e) {
         e.stopPropagation();
-        await this.$store.dispatch('unsetSearchField');
-        await this.$router.push({ path: '/search'});
+        this.searchField = '';
       },
       async searchMovies () {
         await this.$store.dispatch('setSearchField', this.searchField);
