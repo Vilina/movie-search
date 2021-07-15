@@ -7,7 +7,9 @@ import worker from './_api/mock/browser'
 worker.start({
   onUnhandledRequest: 'bypass',
 })
-const app = createApp(App);
-app.use(store);
-app.use(router);
-app.mount('#app');
+  .then(() => {;
+    const app = createApp(App);
+    app.use(store);
+    app.use(router);
+    app.mount('#app');
+  })
