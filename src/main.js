@@ -6,6 +6,9 @@ import worker from './_api/mock/browser'
 
 worker.start({
   onUnhandledRequest: 'bypass',
+  serviceWorker: {
+    url: '/movie-search/mockServiceWorker.js'
+  }
 })
   .then(() => {;
     const app = createApp(App);
