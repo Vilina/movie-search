@@ -15,7 +15,7 @@ Http requests are done using [Axios](https://github.com/axios/axios).
 Mock server made using [Mock Service Worker](https://mswjs.io/).   
 Linter: [ESLint](https://eslint.org/)
 
-## Demo
+## [Demo](https://vilina.github.io/movie-search/)
 ### [API contract](https://github.com/Vilina/movie-search/blob/main/docs/api.md) 
 ### [General product logic info](https://github.com/Vilina/movie-search/blob/main/docs/general.md)
 
