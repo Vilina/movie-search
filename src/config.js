@@ -3,9 +3,9 @@ let config = {
   // apiUrl: '', //mock api
   apiUrl: '/movie-search',
   baseUrl: '/movie-search',
-  moviesEndpoint: './movies.json',
-  actorsEndpoint: './actors.json',
-  genreEndpoint: './genre.json'
+  moviesEndpoint: '/movies.json',
+  actorsEndpoint: '/actors.json',
+  genreEndpoint: '/genre.json'
 };
 
 // config = {

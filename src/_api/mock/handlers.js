@@ -13,8 +13,8 @@ let moviesArray = [];
 let actorsArray = [];
 
 async function getGenres() {
-  if (!genresArray.length) {
-    let response = await fetch(config.genreEndpoint);
+  if (!genresArray.length) {debugger;
+    let response = await fetch(config.baseUrl + config.genreEndpoint);
     genresArray = jsonBig.parse(await response.text());
   }
   
@@ -23,7 +23,7 @@ async function getGenres() {
 
 async function getMovies() {
   if (!moviesArray.length) {
-    let response = await fetch(config.moviesEndpoint);
+    let response = await fetch(config.baseUrl + config.moviesEndpoint);
     moviesArray = jsonBig.parse(await response.text());
   }
   return moviesArray;
@@ -31,7 +31,7 @@ async function getMovies() {
 
 async function getActors() {
   if (!actorsArray.length) {
-    let response = await fetch(config.actorsEndpoint);
+    let response = await fetch(config.baseUrl + config.actorsEndpoint);
     actorsArray = jsonBig.parse(await response.text());
   }
   
