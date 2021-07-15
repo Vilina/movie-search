@@ -1,8 +1,8 @@
 let config = {
   // baseUrl: '',
   // apiUrl: '', //mock api
-  apiUrl: '/movie-search',
-  baseUrl: '/movie-search/',
+  apiUrl: '',
+  baseUrl: '',
   moviesEndpoint: './movies.json',
   actorsEndpoint: './actors.json',
   genreEndpoint: './genre.json'
