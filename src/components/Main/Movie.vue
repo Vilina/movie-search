@@ -23,6 +23,7 @@
   import { mapGetters } from 'vuex'
   import Genre from "../Common/Genre.vue";
   import API from "../../_api"
+  import config from '../../config'
 
   export default {
     components: {
@@ -42,12 +43,15 @@
       }
     },
     computed: {
+      baseUrl: () => {
+        return config.baseUrl
+      }
     },
     created() {
     },
     methods: {
       getImgUrl(id) {
-        return './images/' + id + '.jpg';
+        return this.baseUrl + '/images/' + id + '.jpg';
       },
       setMovie(value) {
         this.movie = value
@@ -65,7 +69,6 @@
     margin: 0 60px;
     gap: 25px;
     .movie-poster {
-      background-image: url(./images/181614724753857483.jpg);
       width: 60%;
       min-height: 500px;
       background-size: cover;

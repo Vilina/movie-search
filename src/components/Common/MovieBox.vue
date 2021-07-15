@@ -14,6 +14,7 @@
 
 <script >
   import Genre from "./Genre.vue";
+  import config from '../../config'
 
   export default {
     components: {
@@ -27,13 +28,16 @@
       }
     },
     computed: {
+      baseUrl: () => {
+        return config.baseUrl
+      }
     },
     created() {
 
     },
     methods: {
       getImgUrl(id) {
-        return './images/' + id + '.jpg';
+        return this.baseUrl + '/images/' + id + '.jpg';
       },
       async openMovie() {
         await this.$router.push({ path: '/movie', query: { id: this.movie.id }});

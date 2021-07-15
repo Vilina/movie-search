@@ -39,14 +39,14 @@ async function getActors() {
 }
 
 export const handlers = [
-  rest.get(config.baseUrl + '/genres', async (req, res, ctx) => {debugger
+  rest.get(config.apiUrl + '/genres', async (req, res, ctx) => {debugger
     let result = await getGenres();
     return res(
       ctx.status(200),
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/movie', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/movie', async (req, res, ctx) => {
     const id = req.url.searchParams.get('id');
     let result = await getMovies();
     result = mock.getMovie(result, id);
@@ -55,7 +55,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/movies', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/movies', async (req, res, ctx) => {
     const genreId = req.url.searchParams.get('genreId');
     let result = await getMovies();
     result = mock.getMovies(result, genreId);
@@ -64,7 +64,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/series', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/series', async (req, res, ctx) => {
     const genreId = req.url.searchParams.get('genreId');
     let result = await getMovies();
     result = mock.getSeries(result, genreId);
@@ -73,7 +73,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/latest', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/latest', async (req, res, ctx) => {
     const genreId = req.url.searchParams.get('genreId');
     const isMovies = JSON.parse(req.url.searchParams.get('isMovies'));
     let result = await getMovies();
@@ -87,7 +87,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/popular', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/popular', async (req, res, ctx) => {
     const genreId = req.url.searchParams.get('genreId');
     const isMovies = JSON.parse(req.url.searchParams.get('isMovies'));
     let result = await getMovies();
@@ -101,7 +101,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/featured', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/featured', async (req, res, ctx) => {
     const genreId = req.url.searchParams.get('genreId');
     const isMovies = JSON.parse(req.url.searchParams.get('isMovies'));
     let result = await getMovies();
@@ -115,7 +115,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/movies/all', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/movies/all', async (req, res, ctx) => {
     const searchValue = req.url.searchParams.get('key');
     const genreId = req.url.searchParams.get('genreId');
     const limit = req.url.searchParams.get('limit');
@@ -127,7 +127,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/genres/all', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/genres/all', async (req, res, ctx) => {
     const searchValue = req.url.searchParams.get('key');
     let result = await getGenres();
     result = mock.getAllGenresFiltered(result, searchValue);
@@ -136,7 +136,7 @@ export const handlers = [
       ctx.json(result),
     )
   }),
-  rest.get(config.baseUrl + '/actors/all', async (req, res, ctx) => {
+  rest.get(config.apiUrl + '/actors/all', async (req, res, ctx) => {
     const searchValue = req.url.searchParams.get('key');
     let result = await getActors();
     result = mock.getAllActorsFiltered(result, searchValue);
