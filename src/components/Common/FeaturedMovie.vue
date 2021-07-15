@@ -47,7 +47,7 @@
     },
     methods: {
       getImgUrl(id) {
-        return '../images/' + id + '.jpg';
+        return this.baseUrl + '/images/' + id + '.jpg';
       },
       async openMovie() {
         await this.$router.push({ path: '/movie', query: { id: this.featured.id }});

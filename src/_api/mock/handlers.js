@@ -13,7 +13,7 @@ let moviesArray = [];
 let actorsArray = [];
 
 async function getGenres() {
-  if (!genresArray.length) {debugger;
+  if (!genresArray.length) {
     let response = await fetch(config.baseUrl + config.genreEndpoint);
     genresArray = jsonBig.parse(await response.text());
   }
