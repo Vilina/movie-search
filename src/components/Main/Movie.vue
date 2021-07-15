@@ -51,7 +51,7 @@
     },
     methods: {
       getImgUrl(id) {
-        return './images/' + id + '.jpg';
+        return '/images/' + id + '.jpg';
       },
       setMovie(value) {
         this.movie = value
