@@ -29,6 +29,7 @@ function addFormattedDate(movies) {
 
 function getQueryParamsString(...args) {
   let queryParamsStr = '?';
+  
   args.map((arg) => {
     if (arg[Object.keys(arg)[0]]) {
       queryParamsStr += Object.keys(arg)[0] + '=' + arg[Object.keys(arg)[0]] + '&';
