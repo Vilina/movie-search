@@ -32,7 +32,7 @@
     methods: {
       async filterByGenre () {
         await this.$store.dispatch('setGenre', this.genre.id);
-        await this.$router.push('/');
+        await this.$router.push({ path: '/'});
       },
       async changePage (page) {
         this.activePage = page -1;

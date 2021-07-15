@@ -28,7 +28,7 @@
     methods: {
       filterByGenre () {
         this.$store.dispatch('setGenre', this.genre.id);
-        this.$router.push('/');
+        this.$router.push({ path: '/'});
       }
     }
 

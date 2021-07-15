@@ -10,8 +10,7 @@ import config from './config'
 import helperService from "./_services/helperService";
 
 const router = createRouter({
-  history: createWebHistory(),
-  base: config.baseUrl,
+  history: createWebHistory(config.baseUrl),
   routes: [
     {
       path: '/',

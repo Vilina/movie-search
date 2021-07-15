@@ -93,13 +93,13 @@
         }
       },
       goSeries () {
-        this.$router.push('/series');
+        this.$router.push({ path: '/series'});
       },
       goMovies () {
-        this.$router.push('/movies');
+        this.$router.push({ path: '/movies'});
       },
       goMain () {
-        this.$router.push('/');
+        this.$router.push({ path: '/'});
       },
       toggleSubmenu () {
         this.subMenu = !this.subMenu;
