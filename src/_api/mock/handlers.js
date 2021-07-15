@@ -39,7 +39,7 @@ async function getActors() {
 }
 
 export const handlers = [
-  rest.get(config.apiUrl + '/genres', async (req, res, ctx) => {debugger
+  rest.get(config.apiUrl + '/genres', async (req, res, ctx) => {
     let result = await getGenres();
     return res(
       ctx.status(200),
