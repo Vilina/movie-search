@@ -5,11 +5,13 @@ import Series from './components/Main/Series.vue'
 import MovieList from './components/Main/MovieList.vue'
 import Movie from './components/Main/Movie.vue'
 import store from './_store/store'
+import config from './config'
 
 import helperService from "./_services/helperService";
 
 const router = createRouter({
   history: createWebHistory(),
+  base: config.baseUrl,
   routes: [
     {
       path: '/',

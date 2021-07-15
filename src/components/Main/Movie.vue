@@ -44,14 +44,14 @@
     },
     computed: {
       baseUrl: () => {
-        return config.baseUrl
+        return config.apiUrl
       }
     },
     created() {
     },
     methods: {
       getImgUrl(id) {
-        return this.baseUrl + '/images/' + id + '.jpg';
+        return './images/' + id + '.jpg';
       },
       setMovie(value) {
         this.movie = value
