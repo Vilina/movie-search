@@ -27,27 +27,28 @@ Linter: [ESLint](https://eslint.org/)
 
 ## Structure
 `
-├── dist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Build   
-├── docs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Documentation files   
-├── public &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Public assets + mswjs + json data files   
-├── src &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Source files  
-│   ├── _api  
-│   │   ├── mock  
-│   │   │    ├── browser.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# mswjs worker setum  
-│   │   │    └── handlers.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # mswjs http requests' handlers  
-│   │   └──────  mockServerFilters.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Mock Api logic  
-│   └────── index.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Api methods  
-│   ├── _services &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Helper Service  
-│   ├── _store &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Vuex store, actions, getters, mutations  
-│   ├── components  
-│   │   ├──Common &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Reusable components  
-│   │   └── Main &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Route components  
-│   ├── App.vue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Entry component  
-│   ├── config.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Config   
-│   ├── main.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# App creation  
-│   └── router.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Router  
-└── README.md  
+├── dist                           # Build
+├── docs                           # Documentation files
+├── public                         # Public assets + mswjs + json data files
+└── src                            # Source files
+    ├── _api
+    │   ├── mock
+    │   │   ├── browser.js         # mswjs worker setum
+    │   │   └── handlers.js        # mswjs http requests' handlers
+    │   └── mockServerFilters.js   # Mock Api logic
+    └── index.js                   # Api methods
+    ├── _services                  # Helper Service
+    ├── _store                     # Vuex store, actions, getters, mutations
+    ├── components
+    │   ├── Common                 # Reusable components
+    │   └── Main                   # Route components
+    ├── App.vue                    # Entry component
+    ├── config.js                  # Config
+    ├── main.js                    # App creation
+    └── router.js                  # Router
+└── README.md
 `
+
 ## Installation
 
 1. Clone the repo `git clone https://github.com/Vilina/movie-search.git movie-search && cd movie-search`.
