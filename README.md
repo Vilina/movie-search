@@ -26,8 +26,8 @@ Linter: [ESLint](https://eslint.org/)
 * Npm (v7.6)
 
 ## Structure
-`
-├── dist  # Build   
+
+├── dist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Build   
 ├── docs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Documentation files   
 ├── public &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Public assets + mswjs + json data files   
 ├── src &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Source files  
@@ -47,7 +47,7 @@ Linter: [ESLint](https://eslint.org/)
 │   ├── main.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# App creation  
 │   └── router.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Router  
 └── README.md  
-`
+
 
 ## Installation
 
