@@ -26,7 +26,7 @@ Linter: [ESLint](https://eslint.org/)
 * Npm (v7.6)
 
 ## Structure
-
+```
 ├── dist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Build   
 ├── docs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Documentation files   
 ├── public &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Public assets + mswjs + json data files   
@@ -46,8 +46,28 @@ Linter: [ESLint](https://eslint.org/)
 │   ├── config.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Config   
 │   ├── main.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# App creation  
 │   └── router.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Router  
-└── README.md  
-
+└── README.md
+├── dist                          # Build
+├── docs                          # Documentation files
+├── public                        # Public assets + mswjs + json data files
+└── src                           # Source files
+    ├── _api
+    │   ├── mock
+    │   │   ├── browser.js         # mswjs worker setum
+    │   │   └── handlers.js        # mswjs http requests' handlers
+    │   └── mockServerFilters.js  # Mock Api logic
+    └── index.js                  # Api methods
+    ├── _services                 # Helper Service
+    ├── _store                    # Vuex store, actions, getters, mutations
+    ├── components
+    │   ├── Common                # Reusable components
+    │   └── Main                  # Route components
+    ├── App.vue                   # Entry component
+    ├── config.js                 # Config
+    ├── main.js                   # App creation
+    └── router.js                 # Router
+└── README.md
+```
 
 ## Installation
 
