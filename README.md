@@ -26,7 +26,7 @@ Linter: [ESLint](https://eslint.org/)
 * Npm (v7.6)
 
 ## Structure
-
+`
 ├── dist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Build   
 ├── docs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Documentation files   
 ├── public &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Public assets + mswjs + json data files   
@@ -47,7 +47,7 @@ Linter: [ESLint](https://eslint.org/)
 │   ├── main.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# App creation  
 │   └── router.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Router  
 └── README.md  
-
+`
 ## Installation
 
 1. Clone the repo `git clone https://github.com/Vilina/movie-search.git movie-search && cd movie-search`.
